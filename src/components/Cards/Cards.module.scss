@@ -1,0 +1,8 @@
+.cards {
+    max-width: 1200px; /* Максимальная ширина контейнера */
+    margin: 0 auto; /* Центрирование по горизонтали */
+    display: grid; /* Используем grid для выравнивания */
+    grid-template-columns: repeat(4, 1fr); /* 4 карточки в ряд */
+    gap: 20px; /* Расстояние между карточками */
+    justify-items: center;
+}
